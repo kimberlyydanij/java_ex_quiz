@@ -16,11 +16,10 @@ public class Prob06 {
 
 	public static void main(String[] args) {
 		int jumsu = 85;
-		int String res;
-		jumsu > 80 
-
+	
 		// 여기에 작성하시오.
-		
+		String res = jumsu >= 80 ? "상" : ( jumsu>=65 ? "중" : "하");
+		System.out.println(res);
 
 	}// end main( )
 
